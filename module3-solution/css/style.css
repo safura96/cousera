@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	margin:0px;
+}
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #17202A;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+/** HEADER **/
+#header-nav {
+  	background-color: #979A9A;
+  	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comfortaa', cursive;
+  color: #F7F9F9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #17202A;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  color: #17202A;
+}
+#nav-list li {
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-header button {
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/** END OF HEADER **/
+
+/** CONTENT **/
+ #main-content h1{
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	color: #ECF0F1;
+ }
+
+#content {
+	color: #111;
+	background-color: #D0D3D4;
+	border-radius: 3px;
+	padding: 20px;
+	text-align: justify;
+}
+
+#content h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/** END OF CONTENT **/
+@media (min-width: 768px){
+	.navbar-toggle{
+		display: none;
+	}
+}
+
+@media (max-width: 767px){
+
+	.navbar-header{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+	  	font-size: 1.2em;
+	  	margin-top: 20px;
+	}
+	#nav-list li {
+	  padding-top: 0px;
+	  padding-right: 0px;
+	}
+	 #main-content h1{
+	 	font-size: 1.5em;
+	 }
+	 #content h2{
+		font-size: 1.2em;
+	}
+}
